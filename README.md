@@ -60,3 +60,9 @@ You can verify CLI wiring (without loading OpenCV processing) using:
 ```bash
 python3 smart_capture.py --help
 ```
+
+For a mocked end-to-end CLI demo test (no OpenCV install needed), run:
+
+```bash
+python3 -m unittest tests/test_smart_capture_mock_e2e.py -v
+```
